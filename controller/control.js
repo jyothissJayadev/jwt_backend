@@ -1,5 +1,5 @@
 import User from '../model/userModels.js'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 const jwtskey='everyonwknows'
 
